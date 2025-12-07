@@ -90,4 +90,26 @@ railway.toml
 # phi-3-mini-q4.gguf
 # ให้เพิ่มชื่อไฟล์ตรงนี้ด้วย เช่น
 # model.gguf
+
 # *.safetensors
+# เพิ่มตรงนี้ต่อจากที่มีอยู่
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.pickle
+*.onnx
+
+# โฟลเดอร์ที่คนชอบตั้งชื่อแปลก ๆ
+*/models/*
+*/model/*
+*/weights/*
+*/weight/*
+*/cache/*
+*/caches/*
+*/huggingface/*
+*/.cache/*
+*/diffusion/*
+*/checkpoints/*
