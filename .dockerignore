@@ -1,0 +1,93 @@
+# Python & Virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-delete-this-directory.txt
+pip-wheel-metadata/
+
+# Mise / asdf
+.mise.toml
+.tool-versions
+
+# Models & Weights (อันนี้ตัวฆ่าขนาดหลัก ๆ)
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.pickle
+*.h5
+*.onnx
+*.tflite
+
+# Folders ที่คนชอบลืม
+models/
+model/
+weights/
+weight/
+cache/
+caches/
+cache_huggingface/
+huggingface/
+diffusers/
+snapshots/
+checkpoints/
+checkpoint/
+lora/
+loras/
+
+# Git & CI
+.git
+.gitignore
+.github
+.gitattributes
+
+# Logs & Databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Misc
+node_modules/
+dist/
+build/
+*.egg-info/
+*.egg
+*.tar.gz
+*.zip
+*.rar
+*.7z
+
+# Railway / Docker
+Dockerfile
+.dockerignore
+railway.json
+railway.toml
+
+# ถ้ามีไฟล์ใหญ่ ๆ ชื่อเฉพาะ เช่น
+# model.gguf
+# sd-v1-5-pruned.safetensors
+# phi-3-mini-q4.gguf
+# ให้เพิ่มชื่อไฟล์ตรงนี้ด้วย เช่น
+# model.gguf
+# *.safetensors
